@@ -1,17 +1,23 @@
-Mission Timer - Minutes   		0062BB0C
-Mission Timer - Seconds   		0062BB0D
+Mission Timer - Minutes   		      0062BB0C
+Mission Timer - Seconds   		      0062BB0D
 
-Infinite Torpedoes Left  		00634369
-Infinite Torpedoes Right		0063436D
-Alt - Infinite Torpedoes Left		0063419B
-Alt - Infinite Torpedoes Right		0063419F
-Alt 2 - Infinite Torpedoes Left		006341A3
-Alt 2 - Infinite Torpedoes Right	006341A7
+Infinite Torpedoes Left  		        00634369
+Infinite Torpedoes Right		        0063436D
 
-Infinite Concussion Missles - Left	00634193
-Infinite Concussion Missles - Right	00634197
+Infinite Torpedoes Left		          0063419B
+Infinite Torpedoes Right		        0063419F
 
-Shields - Front				00634300
-Shields - Rear				00634302
-Alt Shields - Front			00634132
-Alt Shields - Back			00634134
+Infinite Torpedoes Left		          006341A3
+Infinite Torpedoes Right	          006341A7
+
+Infinite Torpedoes Left		          00634371
+Infinite Torpedoes Right            00634371 (?)
+
+Infinite Concussion Missles Left	  00634193
+Infinite Concussion Missles Right	  00634197
+
+Shields - Front				              00634300
+Shields - Rear				              00634302
+
+Shields - Front			                00634132
+Shields - Back			                00634134
