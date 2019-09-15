@@ -1,4 +1,4 @@
-Mission Timer - Minutes   		      0062BB0C
+Mission Timer - Minutes             0062BB0C
 Mission Timer - Seconds   		      0062BB0D
 
 Infinite Torpedoes Left  		        00634369
@@ -11,7 +11,7 @@ Infinite Torpedoes Left		          006341A3
 Infinite Torpedoes Right	          006341A7
 
 Infinite Torpedoes Left		          00634371
-Infinite Torpedoes Right            00634371 (?)
+Infinite Torpedoes Right            00634197
 
 Infinite Concussion Missles Left	  00634193
 Infinite Concussion Missles Right	  00634197
