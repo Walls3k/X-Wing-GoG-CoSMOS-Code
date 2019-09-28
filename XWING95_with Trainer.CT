@@ -2,324 +2,343 @@
 <CheatTable CheatEngineTableVersion="29">
   <CheatEntries>
     <CheatEntry>
-      <ID>16</ID>
-      <Description>"Mission Timer"</Description>
-      <Options moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+      <ID>45</ID>
+      <Description>"All"</Description>
+      <Options moDeactivateChildrenAsWell="1"/>
       <LastState Value="" RealAddress="00000000"/>
       <GroupHeader>1</GroupHeader>
-      <CheatEntries>
-        <CheatEntry>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Deactivate</Action>
+          <Keys>
+            <Key>18</Key>
+            <Key>112</Key>
+          </Keys>
           <ID>0</ID>
-          <Description>"Mission Timer - Minutes"</Description>
-          <LastState Value="98" RealAddress="0062BB0C"/>
-          <VariableType>Byte</VariableType>
-          <Address>0062BB0C</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>1</ID>
-          <Description>"Mission Timer - Seconds"</Description>
-          <LastState Value="35" RealAddress="0062BB0D"/>
-          <VariableType>Byte</VariableType>
-          <Address>0062BB0D</Address>
-        </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>17</ID>
-      <Description>"Torpedoes 1"</Description>
-      <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Value="" RealAddress="00000000"/>
-      <GroupHeader>1</GroupHeader>
+        </Hotkey>
+      </Hotkeys>
       <CheatEntries>
         <CheatEntry>
-          <ID>2</ID>
-          <Description>"Infinite Torpedoes Left"</Description>
-          <LastState Value="3" RealAddress="00634369"/>
-          <VariableType>Byte</VariableType>
-          <Address>00634369</Address>
+          <ID>16</ID>
+          <Description>"Mission Timer"</Description>
+          <Options moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>0</ID>
+              <Description>"Mission Timer - Minutes"</Description>
+              <LastState Value="19" RealAddress="0062BB0C"/>
+              <VariableType>Byte</VariableType>
+              <Address>0062BB0C</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1</ID>
+              <Description>"Mission Timer - Seconds"</Description>
+              <LastState Value="56" RealAddress="0062BB0D"/>
+              <VariableType>Byte</VariableType>
+              <Address>0062BB0D</Address>
+            </CheatEntry>
+          </CheatEntries>
         </CheatEntry>
         <CheatEntry>
-          <ID>3</ID>
-          <Description>"Infinite Torpedoes Right"</Description>
-          <LastState Value="3" RealAddress="0063436D"/>
-          <VariableType>Byte</VariableType>
-          <Address>0063436D</Address>
-        </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>18</ID>
-      <Description>"Torpedoes 2"</Description>
-      <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Value="" RealAddress="00000000"/>
-      <GroupHeader>1</GroupHeader>
-      <CheatEntries>
-        <CheatEntry>
-          <ID>4</ID>
-          <Description>"Infinite Torpedoes Left"</Description>
-          <LastState Value="3" RealAddress="0063419B"/>
-          <VariableType>Byte</VariableType>
-          <Address>0063419B</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>5</ID>
-          <Description>"Infinite Torpedoes Right"</Description>
-          <LastState Value="3" RealAddress="0063419F"/>
-          <VariableType>Byte</VariableType>
-          <Address>0063419F</Address>
-        </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>19</ID>
-      <Description>"Torpedoes 3"</Description>
-      <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Value="" RealAddress="00000000"/>
-      <GroupHeader>1</GroupHeader>
-      <CheatEntries>
-        <CheatEntry>
-          <ID>6</ID>
-          <Description>"Infinite Torpedoes Left"</Description>
-          <LastState Value="0" RealAddress="006341A3"/>
-          <VariableType>Byte</VariableType>
-          <Address>006341A3</Address>
+          <ID>22</ID>
+          <Description>"Shields 1"</Description>
+          <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>10</ID>
+              <Description>"Shields - Front"</Description>
+              <LastState Value="29" RealAddress="00634300"/>
+              <VariableType>Byte</VariableType>
+              <Address>00634300</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>11</ID>
+              <Description>"Shields - Rear"</Description>
+              <LastState Value="0" RealAddress="00634302"/>
+              <VariableType>Byte</VariableType>
+              <Address>00634302</Address>
+            </CheatEntry>
+          </CheatEntries>
         </CheatEntry>
         <CheatEntry>
-          <ID>7</ID>
-          <Description>"Infinite Torpedoes Right"</Description>
-          <LastState Value="0" RealAddress="006341A7"/>
-          <VariableType>Byte</VariableType>
-          <Address>006341A7</Address>
-        </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>20</ID>
-      <Description>"Torpedoes 4"</Description>
-      <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Value="" RealAddress="00000000"/>
-      <GroupHeader>1</GroupHeader>
-      <CheatEntries>
-        <CheatEntry>
-          <ID>40</ID>
-          <Description>"Infinite Torpedoes Left"</Description>
-          <LastState Value="6" RealAddress="00635013"/>
-          <VariableType>Byte</VariableType>
-          <Address>00635013</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>41</ID>
-          <Description>"Infinite Torpedoes Right"</Description>
-          <LastState Value="6" RealAddress="00635017"/>
-          <VariableType>Byte</VariableType>
-          <Address>00635017</Address>
-        </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>39</ID>
-      <Description>"Torpedoes 5"</Description>
-      <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Value="" RealAddress="00000000"/>
-      <GroupHeader>1</GroupHeader>
-      <CheatEntries>
-        <CheatEntry>
-          <ID>37</ID>
-          <Description>"Infinite Torpedoes Left"</Description>
-          <LastState Value="0" RealAddress="00634371"/>
-          <VariableType>Byte</VariableType>
-          <Address>00634371</Address>
+          <ID>23</ID>
+          <Description>"Shields 2"</Description>
+          <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>12</ID>
+              <Description>"Shields - Front"</Description>
+              <LastState Value="28" RealAddress="00634132"/>
+              <VariableType>Byte</VariableType>
+              <Address>00634132</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>13</ID>
+              <Description>"Shields - Rear"</Description>
+              <LastState Value="28" RealAddress="00634134"/>
+              <VariableType>Byte</VariableType>
+              <Address>00634134</Address>
+            </CheatEntry>
+          </CheatEntries>
         </CheatEntry>
         <CheatEntry>
-          <ID>38</ID>
-          <Description>"Infinite Torpedoes Right"</Description>
-          <LastState Value="0" RealAddress="00634375"/>
-          <VariableType>Byte</VariableType>
-          <Address>00634375</Address>
-        </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>21</ID>
-      <Description>"Concussion Missiles 1"</Description>
-      <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Value="" RealAddress="00000000"/>
-      <GroupHeader>1</GroupHeader>
-      <CheatEntries>
-        <CheatEntry>
-          <ID>8</ID>
-          <Description>"Infinite Concussion Missles Left"</Description>
-          <LastState Value="0" RealAddress="00634193"/>
-          <VariableType>Byte</VariableType>
-          <Address>00634193</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>9</ID>
-          <Description>"Infinite Concussion Missles Right"</Description>
-          <LastState Value="0" RealAddress="00634197"/>
-          <VariableType>Byte</VariableType>
-          <Address>00634197</Address>
-        </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>27</ID>
-      <Description>"Concussion Missiles 2"</Description>
-      <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Value="" RealAddress="00000000"/>
-      <GroupHeader>1</GroupHeader>
-      <CheatEntries>
-        <CheatEntry>
-          <ID>25</ID>
-          <Description>"Infinite Concussion Missles Left"</Description>
-          <LastState Value="0" RealAddress="0063573B"/>
-          <VariableType>Byte</VariableType>
-          <Address>0063573B</Address>
+          <ID>29</ID>
+          <Description>"Shields 3"</Description>
+          <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>30</ID>
+              <Description>"Shields - Front"</Description>
+              <LastState Value="39" RealAddress="006356DA"/>
+              <VariableType>Byte</VariableType>
+              <Address>006356DA</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>28</ID>
+              <Description>"Shields - Rear"</Description>
+              <LastState Value="0" RealAddress="006356DC"/>
+              <VariableType>Byte</VariableType>
+              <Address>006356DC</Address>
+            </CheatEntry>
+          </CheatEntries>
         </CheatEntry>
         <CheatEntry>
-          <ID>26</ID>
-          <Description>"Infinite Concussion Missles Right"</Description>
-          <LastState Value="0" RealAddress="0063573F"/>
-          <VariableType>Byte</VariableType>
-          <Address>0063573F</Address>
-        </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>33</ID>
-      <Description>"Concussion Missiles 3"</Description>
-      <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Value="" RealAddress="00000000"/>
-      <GroupHeader>1</GroupHeader>
-      <CheatEntries>
-        <CheatEntry>
-          <ID>31</ID>
-          <Description>"Infinite Concussion Missles Left"</Description>
-          <LastState Value="6" RealAddress="006348CB"/>
-          <VariableType>Byte</VariableType>
-          <Address>006348CB</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>32</ID>
-          <Description>"Infinite Concussion Missles Right"</Description>
-          <LastState Value="6" RealAddress="006348CF"/>
-          <VariableType>Byte</VariableType>
-          <Address>006348CF</Address>
-        </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>22</ID>
-      <Description>"Shields 1"</Description>
-      <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Value="" RealAddress="00000000"/>
-      <GroupHeader>1</GroupHeader>
-      <CheatEntries>
-        <CheatEntry>
-          <ID>10</ID>
-          <Description>"Shields - Front"</Description>
-          <LastState Value="19" RealAddress="00634300"/>
-          <VariableType>Byte</VariableType>
-          <Address>00634300</Address>
+          <ID>36</ID>
+          <Description>"Shields 4"</Description>
+          <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>35</ID>
+              <Description>"Shields - Front"</Description>
+              <LastState Value="39" RealAddress="0063486A"/>
+              <VariableType>Byte</VariableType>
+              <Address>0063486A</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>34</ID>
+              <Description>"Shields - Rear"</Description>
+              <LastState Value="0" RealAddress="0063486C"/>
+              <VariableType>Byte</VariableType>
+              <Address>0063486C</Address>
+            </CheatEntry>
+          </CheatEntries>
         </CheatEntry>
         <CheatEntry>
-          <ID>11</ID>
-          <Description>"Shields - Rear"</Description>
-          <LastState Value="0" RealAddress="00634302"/>
-          <VariableType>Byte</VariableType>
-          <Address>00634302</Address>
-        </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>23</ID>
-      <Description>"Shields 2"</Description>
-      <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Value="" RealAddress="00000000"/>
-      <GroupHeader>1</GroupHeader>
-      <CheatEntries>
-        <CheatEntry>
-          <ID>12</ID>
-          <Description>"Shields - Front"</Description>
-          <LastState Value="19" RealAddress="00634132"/>
-          <VariableType>Byte</VariableType>
-          <Address>00634132</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>13</ID>
-          <Description>"Shields - Rear"</Description>
-          <LastState Value="0" RealAddress="00634134"/>
-          <VariableType>Byte</VariableType>
-          <Address>00634134</Address>
-        </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>29</ID>
-      <Description>"Shields 3"</Description>
-      <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Value="" RealAddress="00000000"/>
-      <GroupHeader>1</GroupHeader>
-      <CheatEntries>
-        <CheatEntry>
-          <ID>30</ID>
-          <Description>"Shields - Front"</Description>
-          <LastState Value="19" RealAddress="006356DA"/>
-          <VariableType>Byte</VariableType>
-          <Address>006356DA</Address>
+          <ID>44</ID>
+          <Description>"Shields 5"</Description>
+          <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>43</ID>
+              <Description>"Shields - Front"</Description>
+              <LastState Value="39" RealAddress="00634FA2"/>
+              <VariableType>Byte</VariableType>
+              <Address>00634FA2</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>42</ID>
+              <Description>"Shields - Rear"</Description>
+              <LastState Value="0" RealAddress="00634FA4"/>
+              <VariableType>Byte</VariableType>
+              <Address>00634FA4</Address>
+            </CheatEntry>
+          </CheatEntries>
         </CheatEntry>
         <CheatEntry>
-          <ID>28</ID>
-          <Description>"Shields - Rear"</Description>
-          <LastState Value="0" RealAddress="006356DC"/>
-          <VariableType>Byte</VariableType>
-          <Address>006356DC</Address>
-        </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>36</ID>
-      <Description>"Shields 4"</Description>
-      <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Value="" RealAddress="00000000"/>
-      <GroupHeader>1</GroupHeader>
-      <CheatEntries>
-        <CheatEntry>
-          <ID>35</ID>
-          <Description>"Shields - Front"</Description>
-          <LastState Value="19" RealAddress="0063486A"/>
-          <VariableType>Byte</VariableType>
-          <Address>0063486A</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>34</ID>
-          <Description>"Shields - Rear"</Description>
-          <LastState Value="0" RealAddress="0063486C"/>
-          <VariableType>Byte</VariableType>
-          <Address>0063486C</Address>
-        </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>44</ID>
-      <Description>"Shields 5"</Description>
-      <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Value="" RealAddress="00000000"/>
-      <GroupHeader>1</GroupHeader>
-      <CheatEntries>
-        <CheatEntry>
-          <ID>43</ID>
-          <Description>"Shields - Front"</Description>
-          <LastState Value="19" RealAddress="00634FA2"/>
-          <VariableType>Byte</VariableType>
-          <Address>00634FA2</Address>
+          <ID>17</ID>
+          <Description>"Torpedoes 1"</Description>
+          <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>2</ID>
+              <Description>"Infinite Torpedoes Left"</Description>
+              <LastState Value="4" RealAddress="00634369"/>
+              <VariableType>Byte</VariableType>
+              <Address>00634369</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>3</ID>
+              <Description>"Infinite Torpedoes Right"</Description>
+              <LastState Value="4" RealAddress="0063436D"/>
+              <VariableType>Byte</VariableType>
+              <Address>0063436D</Address>
+            </CheatEntry>
+          </CheatEntries>
         </CheatEntry>
         <CheatEntry>
-          <ID>42</ID>
-          <Description>"Shields - Rear"</Description>
-          <LastState Value="19" RealAddress="00634FA4"/>
-          <VariableType>Byte</VariableType>
-          <Address>00634FA4</Address>
+          <ID>18</ID>
+          <Description>"Torpedoes 2"</Description>
+          <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>4</ID>
+              <Description>"Infinite Torpedoes Left"</Description>
+              <LastState Value="3" RealAddress="0063419B"/>
+              <VariableType>Byte</VariableType>
+              <Address>0063419B</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>5</ID>
+              <Description>"Infinite Torpedoes Right"</Description>
+              <LastState Value="3" RealAddress="0063419F"/>
+              <VariableType>Byte</VariableType>
+              <Address>0063419F</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19</ID>
+          <Description>"Torpedoes 3"</Description>
+          <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>6</ID>
+              <Description>"Infinite Torpedoes Left"</Description>
+              <LastState Value="0" RealAddress="006341A3"/>
+              <VariableType>Byte</VariableType>
+              <Address>006341A3</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>7</ID>
+              <Description>"Infinite Torpedoes Right"</Description>
+              <LastState Value="0" RealAddress="006341A7"/>
+              <VariableType>Byte</VariableType>
+              <Address>006341A7</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>20</ID>
+          <Description>"Torpedoes 4"</Description>
+          <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>40</ID>
+              <Description>"Infinite Torpedoes Left"</Description>
+              <LastState Value="0" RealAddress="00635013"/>
+              <VariableType>Byte</VariableType>
+              <Address>00635013</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>41</ID>
+              <Description>"Infinite Torpedoes Right"</Description>
+              <LastState Value="0" RealAddress="00635017"/>
+              <VariableType>Byte</VariableType>
+              <Address>00635017</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>39</ID>
+          <Description>"Torpedoes 5"</Description>
+          <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>37</ID>
+              <Description>"Infinite Torpedoes Left"</Description>
+              <LastState Value="0" RealAddress="00634371"/>
+              <VariableType>Byte</VariableType>
+              <Address>00634371</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>38</ID>
+              <Description>"Infinite Torpedoes Right"</Description>
+              <LastState Value="0" RealAddress="00634375"/>
+              <VariableType>Byte</VariableType>
+              <Address>00634375</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>21</ID>
+          <Description>"Concussion Missiles 1"</Description>
+          <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>8</ID>
+              <Description>"Infinite Concussion Missles Left"</Description>
+              <LastState Value="0" RealAddress="00634193"/>
+              <VariableType>Byte</VariableType>
+              <Address>00634193</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>9</ID>
+              <Description>"Infinite Concussion Missles Right"</Description>
+              <LastState Value="0" RealAddress="00634197"/>
+              <VariableType>Byte</VariableType>
+              <Address>00634197</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>27</ID>
+          <Description>"Concussion Missiles 2"</Description>
+          <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>25</ID>
+              <Description>"Infinite Concussion Missles Left"</Description>
+              <LastState Value="0" RealAddress="0063573B"/>
+              <VariableType>Byte</VariableType>
+              <Address>0063573B</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>26</ID>
+              <Description>"Infinite Concussion Missles Right"</Description>
+              <LastState Value="0" RealAddress="0063573F"/>
+              <VariableType>Byte</VariableType>
+              <Address>0063573F</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>33</ID>
+          <Description>"Concussion Missiles 3"</Description>
+          <Options moRecursiveSetValue="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>31</ID>
+              <Description>"Infinite Concussion Missles Left"</Description>
+              <LastState Value="76" RealAddress="006348CB"/>
+              <VariableType>Byte</VariableType>
+              <Address>006348CB</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>32</ID>
+              <Description>"Infinite Concussion Missles Right"</Description>
+              <LastState Value="6" RealAddress="006348CF"/>
+              <VariableType>Byte</VariableType>
+              <Address>006348CF</Address>
+            </CheatEntry>
+          </CheatEntries>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
